@@ -9,7 +9,7 @@ const useFetch = (url) => {
         //console.log('use effect ran');
         //console.log(data);
         setTimeout( () => {
-            fetch('')
+            fetch('/prueba.json')
             .then(res => {
                 if(!res.ok){
                     throw Error('Could not fetch the data for this resource');
